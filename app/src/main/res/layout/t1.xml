@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red"
+            android:id="@+id/button17"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#e10d0d" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yellow"
+            android:id="@+id/button18"
+            android:layout_alignBottom="@+id/button17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="orange"
+            android:id="@+id/button19"
+            android:layout_alignBottom="@+id/button17"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue"
+            android:id="@+id/button20"
+            android:layout_marginTop="73dp"
+            android:layout_below="@+id/button19"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green"
+            android:id="@+id/button21"
+            android:layout_alignBottom="@+id/button20"
+            android:layout_toLeftOf="@+id/button20"
+            android:layout_toStartOf="@+id/button20" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idigo"
+            android:id="@+id/button22"
+            android:layout_alignBottom="@+id/button20"
+            android:layout_toRightOf="@+id/button20"
+            android:layout_toEndOf="@+id/button20" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="violet"
+            android:id="@+id/button23"
+            android:layout_below="@+id/button20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp" />
+
+    </RelativeLayout>
+</LinearLayout>
